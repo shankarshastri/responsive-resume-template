@@ -75,3 +75,12 @@ html,body {
 .osContrib {
   color: #e9ecef;
 }
+
+.about {
+  color: #e9ecef;
+}
+
+.about > .row {
+  margin-left: 20%;
+  padding: 1rem;
+}

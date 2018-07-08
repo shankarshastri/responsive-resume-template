@@ -182,3 +182,43 @@ export const PRObject = [
     status: 'Merged'
   }
 ];
+
+//About
+
+export const AboutLinksObj = [
+  {
+    name : 'Hackerearth',
+    profileLink: 'https://www.hackerearth.com/@shastri.shankar9',
+    icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/9CCF-HE_identity.png'
+  },
+  {
+    name: 'Hackerrank',
+    profileLink: 'https://www.hackerrank.com/shastri_shankar9' ,
+    icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/Lvxu-DS201.png',
+  },
+  {
+    name: 'CodeForces',
+    profileLink: 'http://codeforces.com/profile/shastri.shankar9',
+    icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/8ytt-CF.png',
+  },
+  {
+    name: 'LeetCode',
+    profileLink: 'https://leetcode.com/shastrishankar9/',
+    icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/8des-LEETCODE.png',
+  },
+  {
+    name: 'CodeChef',
+    profileLink: 'https://www.codechef.com/users/shastri5shank',
+    icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/_iqW-CC.ico'
+  },
+  {
+    name: 'LinkedIn',
+    profileLink: 'https://www.linkedin.com/in/shankar-shastri/',
+    icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/GbB5-LK.ico'
+  },
+  {
+    name: 'Github',
+    profileLink: 'https://github.com/shankarshastri/',
+    icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/LuQy-GH.ico'
+  }
+];

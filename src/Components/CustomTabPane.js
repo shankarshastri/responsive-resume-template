@@ -6,6 +6,7 @@ import Experience from './Experience';
 import Education from './Education';
 import Awards from './Awards';
 import OSContrib from './OSContrib';
+import About from './About';
 
 export default class CustomTabPane extends React.Component {
   constructor(props) {
@@ -30,7 +31,7 @@ export default class CustomTabPane extends React.Component {
         <Nav tabs>
           <NavItem>
             <NavLink
-              className={classnames({ active: this.state.activeTab === '1'})}
+              className={classnames({ active: this.state.activeTab === '1' })}
               onClick={() => { this.toggle('1'); }}
             >
               SKILLS
@@ -41,7 +42,7 @@ export default class CustomTabPane extends React.Component {
               className={classnames({ active: this.state.activeTab === '2' })}
               onClick={() => { this.toggle('2'); }}
             >
-             EXPERIENCE
+              EXPERIENCE
             </NavLink>
           </NavItem>
           <NavItem>
@@ -82,7 +83,7 @@ export default class CustomTabPane extends React.Component {
             <Row>
               <Col>
                 <Jumbotron>
-                <Skills />
+                  <Skills />
                 </Jumbotron>
               </Col>
             </Row>
@@ -109,7 +110,7 @@ export default class CustomTabPane extends React.Component {
             <Row>
               <Col>
                 <Jumbotron>
-                 <Awards />
+                  <Awards />
                 </Jumbotron>
               </Col>
             </Row>
@@ -127,10 +128,7 @@ export default class CustomTabPane extends React.Component {
             <Row>
               <Col>
                 <Jumbotron>
-                  <h1 className="display-3">Hello, world!</h1>
-                  <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                  <hr className="my-2" />
-                  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                  <About />
                 </Jumbotron>
               </Col>
             </Row>
