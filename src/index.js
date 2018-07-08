@@ -13,8 +13,8 @@ class App extends React.Component {
     return (
       <Container fluid>
       <Row>
-          <Col lg={5}><Profile /></Col>
-          <Col lg={7}><CustomTabPane /></Col>
+          <Col lg={3}><Profile /></Col>
+          <Col lg={9}><CustomTabPane /></Col>
       </Row>
       </Container>
     );

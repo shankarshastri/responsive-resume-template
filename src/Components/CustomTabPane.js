@@ -64,6 +64,22 @@ export default class CustomTabPane extends React.Component {
               INTERESTS
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink
+              className={classnames({ active: this.state.activeTab === '6' })}
+              onClick={() => { this.toggle('6'); }}
+            >
+              ABOUT
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink
+              className={classnames({ active: this.state.activeTab === '7' })}
+              onClick={() => { this.toggle('7'); }}
+            >
+              OPEN-SOURCE CONTRIBUTIONS
+            </NavLink>
+          </NavItem>
         </Nav>
         <TabContent activeTab={this.state.activeTab}>
           <TabPane tabId="1">
@@ -112,6 +128,30 @@ export default class CustomTabPane extends React.Component {
             </Row>
           </TabPane>
           <TabPane tabId="5">
+            <Row>
+              <Col>
+                <Jumbotron>
+                  <h1 className="display-3">Hello, world!</h1>
+                  <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                  <hr className="my-2" />
+                  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                </Jumbotron>
+              </Col>
+            </Row>
+          </TabPane>
+          <TabPane tabId="6">
+            <Row>
+              <Col>
+                <Jumbotron>
+                  <h1 className="display-3">Hello, world!</h1>
+                  <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                  <hr className="my-2" />
+                  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                </Jumbotron>
+              </Col>
+            </Row>
+          </TabPane>
+          <TabPane tabId="7">
             <Row>
               <Col>
                 <Jumbotron>
