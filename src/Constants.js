@@ -1,11 +1,11 @@
 export const ProgrammingSkills = [
-  { language: "Scala", progress: "90"},
+  { language: "Scala", progress: "90" },
   { language: "Javascript", progress: "75" },
   { language: "Java", progress: "75" },
   { language: "C++", progress: "75" },
   { language: "C", progress: "75" },
   { language: "Erlang", progress: "75" }
-  ];
+];
 
 export const MarkUpSkills = [
   { language: "HTML5", progress: "80" },
@@ -13,22 +13,23 @@ export const MarkUpSkills = [
 ];
 
 export const Frameworks = [
+  { language: "Scala", frameworks: "Akka, Cats, Scalaz, Shapeless." },
   {
-    language: "Javascript", frameworks: 
-    "React, Angular, Node, Express, Moment," +
-    "Phantom, Redux, Lodash,"+
-    "Underscore"},
-  { language: "CSS3", frameworks: "SASS, SCSS" },
-  { language: "Scala", frameworks: "Akka, Cats, Scalaz, Shapeless" }
+    language: "Javascript", frameworks:
+    "React, Angular, Node, Express, Moment, " +
+    "Phantom, Redux, Lodash, " +
+    "Underscore."
+  },
+  { language: "CSS3", frameworks: "SASS, SCSS." }
 ]
 
 export const TestFrameworks = [
   {
     language: "Javascript", frameworks:
-    "Jasmine, Mocha, Chai, ReactUtils, Protractor,"+
-    "Enzyme, Jest, Karma"
+    "Jasmine, Mocha, Chai, ReactUtils, Protractor, " +
+    "Enzyme, Jest, Karma."
   },
-  { language: "Scala", frameworks: "Scalatest, Akka TestKit" }
+  { language: "Scala", frameworks: "Scalatest, Akka TestKit." }
 ]
 
 export const Databases = [
@@ -38,8 +39,8 @@ export const Caches = [
   "Redis", "AeroSpike"
 ];
 
-export const Tools  = [
-  "SBT", "Git", "GitHub", "Webpack", 
+export const Tools = [
+  "SBT", "Git", "GitHub", "Webpack",
   "NPM", "NVM", "Yarn", "NightWatch"
 ]
 

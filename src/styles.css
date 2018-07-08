@@ -4,7 +4,7 @@
 html,body {
   background: darkslategray;
 }
-.container {
+.container-fluid {
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -43,4 +43,8 @@ html,body {
 
 .skills {
   color: white;
+}
+
+.skills > .row {
+  margin-top: 3%;
 }

@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 class App extends React.Component {
   render() {
     return (
-      <Container>
+      <Container fluid>
       <Row>
           <Col lg={5}><Profile /></Col>
           <Col lg={7}><CustomTabPane /></Col>
