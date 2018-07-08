@@ -1,7 +1,7 @@
 export const ProgrammingSkills = [
   { language: 'Scala', progress: '90' },
-  { language: 'Javascript', progress: '75' },
-  { language: 'Java', progress: '75' },
+  { language: 'Javascript', progress: '85' },
+  { language: 'Java', progress: '80' },
   { language: 'C++', progress: '75' },
   { language: 'C', progress: '75' },
   { language: 'Erlang', progress: '75' }
@@ -9,7 +9,7 @@ export const ProgrammingSkills = [
 
 export const MarkUpSkills = [
   { language: 'HTML5', progress: '80' },
-  { language: 'CSS3', progress: '75' }
+  { language: 'CSS3', progress: '80' }
 ];
 
 export const Frameworks = [
@@ -65,25 +65,32 @@ export const Home = 'Bengaluru';
 //Experience
 export const ExperienceObject = [
   {
-    company: 'Cisco Systems',
+    company: 'Cisco Systems, Bengaluru',
     date: 'APR 2018 – Present',
     role: 'SDE 2',
-    desc: `Working for Cisco Spark Care (Cloud Contact Center) in a complete agile environment.
-    Participated and won in culture of good code.
+    desc: `
+    Working for Cisco CJP(Customer Journey Platform) in a complete agile environment.
+    Recieved Awards (Connected Recognitions) For Dockerizing Care Platform For Dev Environment.
     Working on scalable micro service architecture, in almost all technical aspect of software
     development including software design, development, unit test, functional test, performance
     test, usability test, integration test and acceptance tests with full-fledged code reviews.
     `
   }, 
   {
-    company: 'Cisco Systems',
+    company: 'Cisco Systems, Bengaluru',
     date: 'NOV 2016 – Present',
     role: 'SDE 1',
-    desc: 'Desc'
+    desc: `
+    Worked for Cisco Spark Care in a complete agile environment.
+    Participated and won in culture of good code.
+    Implemented Rate-Limiting for all micro-services.
+    `
   }, 
   {
-    company: 'Avaya',
+    company: 'Avaya, Bengaluru',
     date: 'JULY 2015 – SEP 2016',
     role: 'SDE',
-    desc: 'Desc'
+    desc: `
+    Worked on Access Control (Security Product) Identity Engines.
+    Worked as a team to productize a virtualized tunneling server for enterprise wireless networks from scratch.`
   }];
