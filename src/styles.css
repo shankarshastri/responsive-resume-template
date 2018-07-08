@@ -49,6 +49,7 @@ html,body {
     border-radius: 50%!important;
     width: 30%;
     border-style: solid;
+    margin-bottom: 2%;
 }
 
 .skills {
@@ -61,8 +62,13 @@ html,body {
 
 .table td {
     color: #dee2e6;
-    background: #212529;
 }
-.table {
-  box-shadow: 0px 0px 10px 0px;
+
+
+.experience {
+  color: #e9ecef;
+}
+
+.experience > .row {
+  padding: 1rem;
 }

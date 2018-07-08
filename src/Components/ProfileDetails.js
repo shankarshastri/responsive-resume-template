@@ -1,4 +1,4 @@
-import { Table, Row, Col } from 'reactstrap';
+import { Table } from 'reactstrap';
 import React from "react";
 import * as Constants from '../Constants';
 export default class ProfileDetails extends React.Component {

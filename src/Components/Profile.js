@@ -7,7 +7,6 @@ class Profile extends React.Component {
   render() {
     return (
       <div className="profile">
-      <Container>
         <Row>
           <Col>
             <ProfileImage />
@@ -23,7 +22,6 @@ class Profile extends React.Component {
         <ProfileDetails />
         </Col>
         </Row>
-        </Container>
       </div>);
   }
 }
