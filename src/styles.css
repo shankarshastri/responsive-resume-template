@@ -65,10 +65,10 @@ html,body {
 }
 
 
-.experience {
+.experience, .education {
   color: #e9ecef;
 }
 
-.experience > .row {
+.education > .row, .experience > .row {
   padding: 1rem;
 }

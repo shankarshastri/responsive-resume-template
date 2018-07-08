@@ -68,6 +68,7 @@ export const ExperienceObject = [
     company: 'Cisco Systems, Bengaluru',
     date: 'APR 2018 – Present',
     role: 'SDE 2',
+    imageSrc: 'https://media.licdn.com/dms/image/C4D0BAQHO_cO49I_FRA/company-logo_400_400/0?e=2130710400&v=beta&t=WaC9soho4B3A5-LULY9WiSAGkJ0HdBKmyU74N3VGBF8',
     desc: `
     Working for Cisco CJP(Customer Journey Platform) in a complete agile environment.
     Recieved Awards (Connected Recognitions) For Dockerizing Care Platform For Dev Environment.
@@ -80,6 +81,7 @@ export const ExperienceObject = [
     company: 'Cisco Systems, Bengaluru',
     date: 'NOV 2016 – Present',
     role: 'SDE 1',
+    imageSrc: 'https://media.licdn.com/dms/image/C4D0BAQHO_cO49I_FRA/company-logo_400_400/0?e=2130710400&v=beta&t=WaC9soho4B3A5-LULY9WiSAGkJ0HdBKmyU74N3VGBF8',
     desc: `
     Worked for Cisco Spark Care in a complete agile environment.
     Participated and won in culture of good code.
@@ -90,7 +92,29 @@ export const ExperienceObject = [
     company: 'Avaya, Bengaluru',
     date: 'JULY 2015 – SEP 2016',
     role: 'SDE',
+    imageSrc: 'https://media.licdn.com/dms/image/C4D0BAQH_fTN6Dw3uKg/company-logo_400_400/0?e=2130710400&v=beta&t=hTD2zKB7dhESO71IVQADBTgC4cDfNGnXNvft23UwSAg',
     desc: `
     Worked on Access Control (Security Product) Identity Engines.
     Worked as a team to productize a virtualized tunneling server for enterprise wireless networks from scratch.`
+  }];
+
+// Education
+
+export const EducationObject = [
+  {
+    date: 'SEP 2011 - JUNE 2015',
+    role: 'Bachelor of Engineering',
+    college: 'UVCE, Bengaluru',
+    desc: `Passed out with 80 % Aggregate in Information Science, Bangalore University.
+    Participated in various programming contests and worked on various kinds of software 
+    development projects. Participated in cultural activities for fests.`
+  }, 
+  {
+    date: 'APR 2009 - APR 2011',
+    role: 'Pre-University',
+    college: 'St Joseph’s, Bengaluru',
+    desc: `
+    88% PCMB passed out.
+    Participated in Equinox Fest.`
+
   }];
