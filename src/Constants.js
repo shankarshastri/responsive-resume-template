@@ -56,5 +56,8 @@ export const Tech = [
 ];
 
 
-
+export const Name = "SHANKAR RC";
+export const PhoneNumber = "+918050727693";
+export const EmailAddress = "shastri.shankar9@gmail.com";
+export const Home = "Bengaluru";
 // • Coding Platforms: HackerEarth, HackerRank, CodeChef, TopCoder, Github.

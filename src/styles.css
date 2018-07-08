@@ -13,9 +13,18 @@ html,body {
   text-align: center;
 }
 
+.name {
+  color: #e9ecef;
+}
+
 .customTabPane {
   background: #e9ecef;
-  margin-top: 15%;
+  box-shadow: 0px 0px 10px 0px;
+  margin-top: 5%;
+}
+
+.nav-link {
+  cursor: pointer;
 }
 
 .nav-link.active {
@@ -36,6 +45,7 @@ html,body {
 }
 
 .profileImage {
+    box-shadow: 0px 0px 10px 3px;
     border-radius: 50%!important;
     width: 30%;
     border-style: solid;
@@ -47,4 +57,12 @@ html,body {
 
 .skills > .row {
   margin-top: 3%;
+}
+
+.table td {
+    color: #dee2e6;
+    background: #212529;
+}
+.table {
+  box-shadow: 0px 0px 10px 0px;
 }
