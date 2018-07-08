@@ -50,4 +50,11 @@ export const IDE = [
   "Code Blocks", "Eclipse"
 ]
 
+export const Tech = [
+  "Docker", "Kubernetes", "Apache Kafka", "Apache Spark", "Cloud Foundry", 
+  "Jenkins Pipeline", "Vault"
+];
+
+
+
 // • Coding Platforms: HackerEarth, HackerRank, CodeChef, TopCoder, Github.

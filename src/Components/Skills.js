@@ -19,7 +19,6 @@ export default class Skills extends React.Component {
     })
   }
 
-
   renderFrameworks(fs) {
     return fs.map(element => {
       return (
@@ -131,6 +130,16 @@ export default class Skills extends React.Component {
             </Col>
           </Row>
           {this.renderGeneric(Constants.IDE)}
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Row>
+            <Col>
+              <h3> Explored Tech </h3>
+            </Col>
+          </Row>
+          {this.renderGeneric(Constants.Tech)}
         </Col>
       </Row>
     </div>);
