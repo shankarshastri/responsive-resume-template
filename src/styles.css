@@ -64,11 +64,14 @@ html,body {
     color: #dee2e6;
 }
 
-
 .experience, .education {
   color: #e9ecef;
 }
 
 .education > .row, .experience > .row {
   padding: 1rem;
+}
+
+.osContrib {
+  color: #e9ecef;
 }

@@ -76,7 +76,7 @@ export const ExperienceObject = [
     development including software design, development, unit test, functional test, performance
     test, usability test, integration test and acceptance tests with full-fledged code reviews.
     `
-  }, 
+  },
   {
     company: 'Cisco Systems, Bengaluru',
     date: 'NOV 2016 – Present',
@@ -87,7 +87,7 @@ export const ExperienceObject = [
     Participated and won in culture of good code.
     Implemented Rate-Limiting for all micro-services.
     `
-  }, 
+  },
   {
     company: 'Avaya, Bengaluru',
     date: 'JULY 2015 – SEP 2016',
@@ -108,7 +108,7 @@ export const EducationObject = [
     desc: `Passed out with 80 % Aggregate in Information Science, Bangalore University.
     Participated in various programming contests and worked on various kinds of software 
     development projects. Participated in cultural activities for fests.`
-  }, 
+  },
   {
     date: 'APR 2009 - APR 2011',
     role: 'Pre-University',
@@ -118,3 +118,67 @@ export const EducationObject = [
     Participated in Equinox Fest.`
 
   }];
+
+//Awards
+
+export const AwardsObject = [
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/fkGR-COG_MAY_2017.png',
+    altText: 'Culture Of GoodCode'
+  },
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/OsEz-BE_07_OCT_2017.png',
+    altText: 'Benefit Everyone',
+  },
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/l2B4-BE_14_JUN_2018.png',
+    altText: 'Benefit Everyone'
+  },
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/TG9Y-BE_18_JUNE_2018.png',
+    altText: 'Benefit Everyone'
+  },
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/J-Rr-BE_28_FEB_2018.png',
+    altText: 'Benefit Everyone'
+  },
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/569R-BE_JAN_5_2018.png',
+    altText: 'Benefit Everyone'
+  },
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/7Vtp-CE_OCT_2017.png',
+    altText: 'Connect Everything'
+  },
+  {
+    src: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/ueoT-OPD_FEB_2018.png',
+    altText: `Our People's Deal`
+  }
+];
+
+export const PRObject = [
+  {
+    repoName: 'akka-http-quickstart-scala.g8',
+    repoLink: 'https://github.com/akka/akka-http-quickstart-scala.g8',
+    pullRequest: 'https://github.com/akka/akka-http-quickstart-scala.g8/pull/44',
+    status: 'Open'
+  },
+  {
+    repoName: 'docs.scala-lang',
+    repoLink: 'https://github.com/scala/docs.scala-lang',
+    pullRequest: 'https://github.com/scala/docs.scala-lang/pull/930',
+    status: 'Merged'
+  },
+  {
+    repoName: 'karma-firefox-launcher',
+    repoLink: 'https://github.com/karma-runner/karma-firefox-launcher',
+    pullRequest: 'https://github.com/karma-runner/karma-firefox-launcher/pull/84',
+    status: 'Merged'
+  },
+  {
+    repoName: 'akka-http',
+    repoLink: 'https://github.com/akka/akka-http',
+    pullRequest: 'https://github.com/akka/akka-http/pull/2099',
+    status: 'Merged'
+  }
+];
