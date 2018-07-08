@@ -7,6 +7,7 @@ import Education from './Education';
 import Awards from './Awards';
 import OSContrib from './OSContrib';
 import About from './About';
+import GitHubProjects from './GitHubProjects';
 
 export default class CustomTabPane extends React.Component {
   constructor(props) {
@@ -74,6 +75,14 @@ export default class CustomTabPane extends React.Component {
               className={classnames({ active: this.state.activeTab === '6' })}
               onClick={() => { this.toggle('6'); }}
             >
+              GITHUB PROJECTS
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink
+              className={classnames({ active: this.state.activeTab === '7' })}
+              onClick={() => { this.toggle('7'); }}
+            >
               ABOUT
             </NavLink>
           </NavItem>
@@ -125,6 +134,15 @@ export default class CustomTabPane extends React.Component {
             </Row>
           </TabPane>
           <TabPane tabId="6">
+            <Row>
+              <Col>
+                <Jumbotron>
+                  <GitHubProjects />
+                </Jumbotron>
+              </Col>
+            </Row>
+          </TabPane>
+          <TabPane tabId="7">
             <Row>
               <Col>
                 <Jumbotron>

@@ -34,7 +34,7 @@ export default class Experience extends React.Component {
               </Row>
               <Row>
                 <Col>
-                  <h4>{obj.date}</h4>
+                  {obj.date}
                 </Col>
               </Row>
             </Col>

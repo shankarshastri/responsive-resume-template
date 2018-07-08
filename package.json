@@ -1,8 +1,8 @@
 {
-  "name": "resume",
+  "name": "react-resume-template",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "RESUME",
+  "keywords": ["resume", "react"],
   "main": "src/index.js",
   "dependencies": {
     "bootstrap": "4.1.1",

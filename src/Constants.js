@@ -222,3 +222,26 @@ export const AboutLinksObj = [
     icon: 'https://uploads.codesandbox.io/uploads/user/5ae29b72-3c9d-4baf-b5fb-0e0329688dc0/LuQy-GH.ico'
   }
 ];
+
+export const GithubProjects = [
+  {
+    projectLink: 'https://github.com/shankarshastri/ScalaFPCode',
+    projectName: 'Scala FP Code',
+    languages: 'Scala'
+  },
+  {
+    projectLink: 'https://github.com/shankarshastri/AngularCalculator',
+    projectName: 'Angular Calculator',
+    languages: 'Javascript'
+  },
+  {
+    projectLink: 'https://github.com/shankarshastri/ReactAutoQuoteGenerator',
+    projectName: 'React AutoQuote Generator',
+    languages: 'Javascript'
+  },
+  {
+    projectLink: 'https://github.com/shankarshastri/responsive-resume-template',
+    projectName: 'React Responsive Resume Template',
+    languages: 'Javascript'
+  }
+];
