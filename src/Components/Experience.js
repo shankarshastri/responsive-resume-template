@@ -6,7 +6,7 @@ export default class Experience extends React.Component {
 
   renderExperienceProf(obj) {
     return (
-      <Row>
+      <Row key={obj.date}>
         <Col>
           <Row>
             <Col>
